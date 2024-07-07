@@ -127,3 +127,41 @@ opacity: .6;
 .about-foot p{
     font-weight: bold;
 }
+
+
+/* what i do section */
+.what-i-do-section{
+    width: 70%;
+    margin: 0 auto;
+}
+.what-i-do-description{
+    margin-top: 100px;
+    text-align: center;
+}
+.what-i-do-description>h2{
+    margin: 20px 0;
+}
+.what-i-do-description>p{
+    padding: 10px 100px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.skills>div{
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 7px rgb(95, 88, 77);
+    color: rgb(71, 71, 71);
+}
+.skills>div>img{
+    width: 50px;
+    margin: 10px 0;
+    text-align: center;
+}
+.skills>div>h2{
+    margin: 0 0 10px;
+}

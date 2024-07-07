@@ -165,3 +165,32 @@ opacity: .6;
 .skills>div>h2{
     margin: 0 0 10px;
 }
+
+
+/* education-skills */
+
+
+
+.summary-of-My-Resume>h2{
+    color: #FD6E0A;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.education-container{
+    display: flex;
+    padding: 30px;
+}
+.edu-bd-cont{
+    padding: 50px 150px;
+}
+.edu-bd-cont>hr{
+    margin: 20px 1px;
+}
+.education>h4,h5{
+    margin: 10px 0;
+    color: rgba(63, 58, 56, 0.787);
+    font-weight: bold;
+}
+.download-cv{
+    text-align: center;
+}

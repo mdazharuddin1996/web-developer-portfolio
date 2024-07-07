@@ -7,12 +7,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.color-code{
+    color: rgb(71, 71, 71);
+}
+.bg-color{
+    background: rgb(255, 248, 243);
+}
+/* end common style */
 header{
     width: 90%;
     margin: 0 auto;
     background-image: url('../images/developer.png'),url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    padding-top: 100px;
 }
 .btn-praimary{
     background-color: #FD6E0A;
@@ -33,6 +41,7 @@ header{
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
+    font-weight: bold;
     /* background-color: aquamarine; */
 }
 .r{
@@ -53,7 +62,7 @@ nav ul li a{
 
 /* banner section */
 .banner{
-    
+
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -77,4 +86,44 @@ Width: 584px;
 }
 .download-btn>button{
     margin-right: 20px;
+}
+
+
+/* about me section styles */
+.about-me-section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+.about-title{
+    padding: 20px 0;
+}
+.about-me-section p{
+ margin-bottom: 20px;
+}
+.about-me-text-bg{
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-top: 50px; */
+}
+.about-me-section> p{
+    padding: 0 50px;
+    line-height: 30px;
+}
+.about-foot{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px;
+}
+.about-foot h4{
+color: rgb(71, 71, 71);
+margin: 0 5px 15px ;
+opacity: .6;
+
+}
+.about-foot p{
+    font-weight: bold;
 }

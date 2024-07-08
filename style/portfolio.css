@@ -194,3 +194,46 @@ opacity: .6;
 .download-cv{
     text-align: center;
 }
+
+
+/* footer start */
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+.foot-text{
+    width: 600px;
+  
+}
+.foot-text p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social-icons>ul{
+    display: flex;
+    justify-content: center;
+}
+.social-icons>ul>li{
+    list-style: none;
+}
+.social-icons>ul>li>a>img{
+    width: 40px;
+    padding: 5px;
+   
+}
+.foot-field{
+   width: 500px;
+
+}
+.foot-field input{
+display: block;
+width: 100%;
+padding: 5px;
+margin: 5px;
+}
+.foot-field textarea{
+    margin-left:5px ;
+    width: 200px;
+    height: 100px;
+}

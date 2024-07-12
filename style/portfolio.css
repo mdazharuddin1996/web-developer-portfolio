@@ -25,7 +25,6 @@ header{
     padding-top: 50px;
 }
 
-
 .btn-praimary{
     background-color: #FD6E0A;
     border: none;
@@ -44,9 +43,11 @@ header{
 .nav{
     margin-top: 20px;
     display: flex;
+    background-color: #f5f2f0;
     justify-content: space-around;
     font-weight: bold;
-    /* background-color: aquamarine; */
+    position: sticky;
+    top: 0;
 }
 .r{
     color: #FD6E0A;

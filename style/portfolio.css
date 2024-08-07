@@ -15,7 +15,10 @@
 }
 /* end common style */
 
-
+body a{
+    text-decoration: none;
+    color: white;
+}
 header{
     width: 80%;
     margin: 0 auto;
@@ -25,15 +28,19 @@ header{
     padding-top: 50px;
 }
 
-.btn-praimary{
+.btn-primary{
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 1rem;
     color: white;
     padding: 10px 20px;
 }
 
+.btn-primary:hover{
+    background-color: #ece4df;
+    color: black;
+}
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -71,19 +78,19 @@ nav ul li a{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 100px 20px;
         
 }
 .banner-content{
     width: 585px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
-img{
-Width: 584px;
+.banner img{
+
+width: 100%;
    
 }
 .title{
-    font-size: 40px;
+    font-size: 1.5em;
     margin: 30px 1px;
 }
 .download-btn{
@@ -241,4 +248,63 @@ margin: 5px;
     margin-left:5px ;
     width: 200px;
     height: 100px;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:576px) {
+    /* navbar */
+.nav ,.nav> ul{
+        flex-direction: column;
+        margin: 0 auto;
+        background-image: none;
+        background-color: #bda08c;
+        text-align: center;
+        font-weight: bold;
+        position: sticky;
+        top: 0;
+        padding: 10px 0;
+    }
+        .nav>ul >li{
+            padding: 10px;
+            justify-content: center;
+        }
+
+    .banner{
+        flex-direction: column-reverse;
+    
+    }
+
+           .banner-content {
+               width: 100%;
+               text-align: center;
+               margin:30px 0 ;
+               padding: 0 20px;
+           }
+    .download-btn>button{
+        display: block;
+        width: 100%;
+    }
+   
+        footer {
+            display: block;
+            padding: 10px;
+        }
+               
+        .foot-text{
+            width: 100%;
+        }
+               
+        
+                .social-icons>ul {
+                    
+                    justify-content: space-around;
+                }
+             
+        
+                .foot-field {
+                    width: 100%;
+        
+                }
 }

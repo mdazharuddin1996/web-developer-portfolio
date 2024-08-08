@@ -71,10 +71,14 @@ nav ul li{
     list-style: none;
     margin: 0 50px;
 }
-nav ul li a{
-    text-decoration: none;
+.btn-primaryy{
+        background-color: #FD6E0A;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: white;
+        padding: 10px 15px;
 }
-
 /* banner section */
 .banner{
 

@@ -283,21 +283,57 @@ margin: 5px;
         display: block;
         width: 100%;
     }
+         .about-foot div,
+         .about-foot h4 {
+             background-color: rebeccapurple;
+             color: white;
+             border-radius: 5px;
+         }
         .about-me-section {
             width: 100%;
             padding: 10px;
         }
+                .what-i-do-section {
+                    width: 100%;
+                }
+                .what-i-do-description{
+                    margin-top: 0;
+                }
+                .what-i-do-description p{
+                    padding:20px;
+                    text-align: justify;
+                }
                 .about-foot {
                     display: block;
                 }
-                .about-foot div,.about-foot h4{
-                    background-color: rebeccapurple;
-                    color: white;
-                    border-radius: 5px;
+                .skills{
+                    display: block;
                 }
+.skills {
+    display: block;
+}
+
+.skills>div {
+    margin-top: 20px;
+    padding: 30px;
+}
         .about-foot div p{
             padding-bottom: 10px;
         }
+
+                .summary-of-My-Resume>h2 {
+                    color: #FD6E0A;
+                    text-align: center;
+                    margin-bottom: 0;
+                }
+        
+                .education-container{
+                    display: block;
+                    padding: 5px;
+                }
+.edu-bd-cont {
+    padding: 10px;
+}
         footer {
             display: block;
             padding: 10px;
